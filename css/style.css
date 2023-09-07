@@ -15,7 +15,6 @@ e-mail: rgb(18, 143, 255)
 /* Utilities */
 .debug{
     border: 2px solid black;
-    /* padding: 10px; */
 }
 .clearfix::after{
     content: "";
@@ -29,20 +28,18 @@ e-mail: rgb(18, 143, 255)
     text-align: center;
 }
 h1{
-    /* Adjust font weight */
+    font-weight: 700;
     color:rgb(229, 47, 114) ;
     margin-bottom: 40px;
 }
 .cards-container{
     margin-top: 50px;
 }
-.cards-container>div{ /*card*/   
+.cards-container>div{  
     color: white;
     text-align: left;
     float: left;
     width: calc(100%/3);
-}
-.card{
     background-color: rgb(15, 14, 23);
     background-clip: content-box;
     padding: 10px;
