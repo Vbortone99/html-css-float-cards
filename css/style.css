@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* Colors Palette
 Title: rgb(229, 47, 114)
 Card Bg: rgb(15, 14, 23)
+e-mail: rgb(18, 143, 255)
  */
 
 /* Utilities */
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 .debug{
     border: 2px solid black;
 }
@@ -33,7 +36,19 @@ h1{
     width: calc(100%/3);
     padding: 5px;
 }
+.cards-container>div{
+    background-color: rgb(15, 14, 23);
+    color: white;
+    text-align: left;
+    height: 100px;
+}
 img{
     float: left;
     width: 100px;
+    margin-right: 10px;
+}
+
+a{
+    color:rgb(18, 143, 255);
+    text-decoration: none;
 }
