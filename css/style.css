@@ -2,4 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Colors Palette
+Title: rgb(229, 47, 114)
+Card Bg: rgb(15, 14, 23)
+ */
+
+/* Utilities */
+.debug{
+    border: 2px solid black;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapped-container{
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+h1{
+    /* Adjust font weight */
+    color:rgb(229, 47, 114) ;
 }
