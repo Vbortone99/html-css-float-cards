@@ -31,17 +31,20 @@ body{
 h1{
     /* Adjust font weight */
     color:rgb(229, 47, 114) ;
+    margin-bottom: 40px;
 }
 .cards-container{
-    width: calc(100%/3);
-    padding: 5px;
+    margin-top: 50px;
 }
-.cards-container>div{
+.cards-container>div{ /*card*/
     background-color: rgb(15, 14, 23);
     color: white;
     text-align: left;
     height: 100px;
+    float: left;
+    width: calc(100%/3);
 }
+
 img{
     float: left;
     width: 100px;
@@ -51,4 +54,7 @@ img{
 a{
     color:rgb(18, 143, 255);
     text-decoration: none;
+}
+span{
+    display: block;
 }
