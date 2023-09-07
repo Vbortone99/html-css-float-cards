@@ -29,3 +29,11 @@ h1{
     /* Adjust font weight */
     color:rgb(229, 47, 114) ;
 }
+.cards-container{
+    width: calc(100%/3);
+    padding: 5px;
+}
+img{
+    float: left;
+    width: 100px;
+}
